@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700;900&display=swap');
+body{
+    font-family: 'Lato', sans-serif !important;
+}
+nav{
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 32px rgba(0, 22, 99, 0.15);
+    padding: 1rem 0;
+}
+
+.estilo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuItems ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.menuItems ul li{
+    margin: 0 8px;
+}
+.menuItems ul li a{
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.menuItems ul li a:hover{
+    text-decoration: none;
+    color: #0a61aa;
+}
+.inscricao{
+    border-radius: 10px;
+    border: 2px solid #42abdb;
+    padding: 12px;
+    background: #42abdb;
+    color: #ffffff !important;
+}
+.inscricao:hover{
+    background: #0a61aa;
+    border: 2px solid #0a61aa;
+}
+/*---carrossel-----*/
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-caption>h5{
+   color: #000000;
+   font-weight: 900;
+   font-size: 32px;
+}
+/*----Campo Modalidades-------*/
+.campoModalidades{
+    padding: 4rem 0;
+    background: #ffffff;
+}
+.subtitulos{
+    color: #000000;
+    font-weight: 700;
+    font-size: 32px;
+}
+.modalidade{
+    padding: 2rem 0;
+}
+/* Adicione isso ao seu arquivo de estilo CSS */
+.animate-modalidade {
+    position: relative;
+    left: -100px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.modalidade.show {
+    left: 0;
+    opacity: 1;
+}
+.imgModalidade{
+    max-width: 500px;
+}
+.campoInfoMod{
+    margin:2rem 4rem;
+    width: 100%;
+}
+.campoInfoMod>h3{
+    margin-bottom: 22px;
+    font-size: 22px;
+    color: #595959;
+    font-weight: 700;
+    border-bottom: 2px solid #d7d7d7;
+}
+.campoInfoMod>p{
+    margin: 0px;
+    font-size: 18px;
+    color: #595959;
+    font-weight: 500;
+}
+.itemInfoR{
+    border: 2px solid #595959;
+    padding: 32px;
+}
+.imgNatasurf{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 8px;
+}
+.natasurf{
+    display: flex;
+}
+.backgroundNatasurf{
+    background: #2E3192;
+    padding: 48px 0;
+}
+.instagram img{
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 22px;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 0;
+}
+.btnInstagram{
+    background: #2E3192;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 12px 42px;
+}
+.btnInstagram:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#carouselExampleCaptions{
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+.modalidadeItems{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E3192;
+}
+.backgroundNatasurf p, .backgroundNatasurf ul li{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 32px !important;
+    font-weight: 900 !important;
+    color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+#sobrenos{
+    padding: 48px 0;
+}
+footer{
+    background: #000000;
+    padding: 48px 0;
+}
+@media(max-width: 990px){
+    .natasurf{
+        flex-direction: column;
+    }
+    .imgNatasurf{
+        margin-bottom: 16px;
+    }
+    .estilo{
+        flex-direction: column;
+    }
+    .menuItems{
+        margin-top: 22px;
+    }
+   
+}
+
