@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
    
      function checkScreenWidth(mediaQuery) {
         if (mediaQuery.matches) {
-         
           document.querySelector('.bannerPrincipal').src = '/assets/images/bannermobile.png';
         } else {
           document.querySelector('.bannerPrincipal').src = 'assets/images/bannertorneio.png';
