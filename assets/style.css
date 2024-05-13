@@ -27,7 +27,7 @@ nav{
     flex-wrap: wrap;
 }
 .menuItems ul li{
-    margin: 0 8px;
+    margin: 0;
 }
 .menuItems ul li a{
     margin: 0 8px;
