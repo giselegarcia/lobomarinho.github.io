@@ -186,6 +186,8 @@ footer{
     .menuItems{
         margin-top: 22px;
     }
+    .menuItems ul li,.menuItems ul li a{
+        font-size: 14px;
+    }
    
 }
-
